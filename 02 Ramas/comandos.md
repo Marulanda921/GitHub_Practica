@@ -6,5 +6,9 @@ git branch
 
 git branch  + Nombre de la rama sin espacios
 
-#Cambiar de rama
+#Comando para cambiarnos de rama
+
+git checkout + El nombre de la rama
+
+git switch + El nombre de la rama
 
