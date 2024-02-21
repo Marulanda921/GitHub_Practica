@@ -72,3 +72,10 @@ git merge + Nombre de la rama
 
 git config --global alias.lg "log --oneline"
 
+#ver los alias que tienes o los shortcut
+
+git config --global --list
+
+#Hacerle seguimiento a una carpeta vacia sin que tenga nada adentro ya que git no sigue a carpetas vacias
+
+creamos un archivo de git con .gitkeep
