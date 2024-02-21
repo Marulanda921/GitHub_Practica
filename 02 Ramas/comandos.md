@@ -15,3 +15,10 @@ git switch + El nombre de la rama
 #Para pasar de rama y unir todo el codigo anterior y actual 
 
 git merge + nombre de la rama
+
+#Git Extenciones
+
+git history
+git Graph 
+git Lens
+
