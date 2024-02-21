@@ -22,3 +22,5 @@ git history
 git Graph 
 git Lens
 
+#ignorar archivos para git se usa el .gitignore
+
