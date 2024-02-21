@@ -45,3 +45,24 @@ git commit -m "Descripcion del commit"
 Mostrar todo en una linea los commits
 git log --oneline
 
+#Comando para eliminar rama
+
+git branch -D + nombre rama
+
+#Cambiar de rama 
+
+git switch + mas nombre rama
+git checkout + nombreRama
+
+
+#Desvincular Un archivo de git que se le estaba dando seguimiento
+
+git rm --cached + Nombre Archivo
+
+#Crear nueva version con archivos que se le estaban dando seguimiento
+
+git commit -am + "Nombre commit"
+
+#Comando para Unir ramas
+
+git merge + Nombre de la rama
