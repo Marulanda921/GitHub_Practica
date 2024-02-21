@@ -66,3 +66,9 @@ git commit -am + "Nombre commit"
 #Comando para Unir ramas
 
 git merge + Nombre de la rama
+
+
+#hacerte tus propios comandos de git de manera local - shortcut
+
+git config --global alias.lg "log --oneline"
+
