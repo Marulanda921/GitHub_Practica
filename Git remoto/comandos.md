@@ -1,10 +1,10 @@
 ///////////////////////////// GIT REMOTOOOOOOO ///////////////////////////////////////////
 
-#para iniciar el repositorio remoto
+#Hacer una conexion remota 
 
 git remote add origin: https://github.com/Marulanda921/Practica_GitHub.git
 
-#Como saber si esta conectado
+#Como saber si esta conectado para listar las conexiones remotas
 git remote -v
 
 #Como eliminar una conexion remota ya existente
