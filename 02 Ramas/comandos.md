@@ -24,3 +24,14 @@ git Lens
 
 #ignorar archivos para git se usa el .gitignore
 
+# ver ramas remotas de GitHub a git local
+
+git pull
+
+git fetch origin
+
+git branch
+
+git branch -a
+
+# cambiar a una rama remota
