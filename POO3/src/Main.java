@@ -81,6 +81,22 @@ public class Main {
                                     curso.guardarEstudiante(objScaner);
                                 }
                                 break;
+                                case 2:
+                                    //caso para eliminar estudiante
+                                    //1. listar cursos
+                                    objGestion.listarCursos();
+                                    //2. preguntar el curso a eliminar
+                                    System.out.println("Ingrese el curso a eliminar");
+                                    codigo = objScaner.next();
+
+                                    //3. llamar al metodo que elimina
+                                    Curso objCurso = objGestion.buscarCodigo(codigo);
+                                    if (objCurso == null){
+                                        System.out.println("Codigo no valido");
+                                    }else{
+                                        objCurso.eliminarEstudiante(objScaner);
+                                    }
+                                    break;
                                 case 3:
                                     objGestion.listarCursos();
                                     System.out.println("Ingrese el codigo del curso donde se desea inscribir");

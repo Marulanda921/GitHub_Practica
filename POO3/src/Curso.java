@@ -20,7 +20,7 @@ public class Curso {
     public void guardarEstudiante(Scanner objScan){
         System.out.println("Agregar Nuevo estudiante\n");
         System.out.println("Ingresa el nombre del estudiante: ");
-        String nombre = objScan.nextLine();
+        String nombre = objScan.next();
         System.out.println("Ingresa el email del estudiante: ");
         String email = objScan.next();
 
